@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Nikko Benosa | Web Developer & Instructor</title>
+    <meta
+      name="description"
+      content="Portfolio of Nikko Benosa, a passionate web development instructor and front-end developer. Explore projects, skills, and experience."
+    />
+  </head>
+  <body>
+    <main>
+      <section id="container" class="container">
+        <header>
+          <section class="header">
+            <h2 class="fs">Nikko Benosa</h2>
+            <ul class="unl">
+              <div class="burger-menu" id="burgerMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <nav class="nav-links" id="navLinks">
+                <a href="#container2"><li class="li1">Contact</li></a>
+                <a href="#container3"><li class="li1">Projects</li></a>
+                <a href="#skills"><li class="li1">Experience</li></a>
+                <a href="#about"><li class="li1">About</li></a>
+                <a href="#container"><li class="li1">Home</li></a>
+              </nav>
+            </ul>
+          </section>
+          <button
+            id="rotateButton"
+            class="toggle-btn"
+            onclick="toggleDarkMode()"
+          >
+            <i id="circle" class="fa-solid fa-circle-half-stroke"></i>
+          </button>
+        </header>
+        <div class="fabs3">
+          <a
+            class="fabs"
+            href="https://www.facebook.com/nikkobenosa01"
+            target="_blank"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+
+          <a class="fabs" href="instagram.com" target="_blank"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a
+            class="fabs"
+            href="https://www.linkedin.com/in/nikko-benosa-46b92a264/"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="mailto:nikkobenosa02@gmail.com" class="fabs"
+            ><i class="fa-solid fa-envelope"></i
+          ></a>
+        </div>
+        <div class="text">
+          <p id="named">Hello, I'm Nikko V. Benosa</p>
+
+          <p class="green">
+            <em> &nbsp; Bachelor of Science in Information Technology</em>
+          </p>
+          <p class="para1">
+            &nbsp; Passionate about teaching and frontend development,
+            empowering others to build the web of tomorrow!
+          </p>
+
+          <div class="resume">
+            <a href="resume.html">VIEW RESUME</a>
+          </div>
+        </div>
+
+        <div>
+          <picture>
+            <img
+              class="image1"
+              loading="lazy"
+              src="image/profile.jpg"
+              alt="Nikko Benosa"
+            />
+          </picture>
+        </div>
+      </section>
+
+      <section id="about" class="main-about">
+        <div class="contact" style="padding: 1rem">
+          <h2>Get to Know Your Web Development Instructor</h2>
+
+          <p class="text3" style="line-height: 1.5">
+            Hi, I'm Nikko! My passion for web development drives me to share my
+            knowledge with students. Though I'm new to teaching, my enthusiasm
+            and dedication to fostering a successful learning environment are
+            paramount. I believe in laying strong foundations and cultivating
+            practical skills. I look forward to embarking on this exciting
+            journey.
+          </p>
+
+          <div class="link">
+            <a id="link3" class="email" href="mailto:nikkobenosa02@gmail.com">
+              Email Me
+            </a>
+          </div>
+        </div>
+        <div class="contact3" style="padding: 1rem">
+          <div class="square">
+            <picture class="picture-2">
+              <img
+                loading="lazy"
+                src="image/profile5.jpg"
+                alt="Portrait of Nikko Benosa, Web Developer and Instructor"
+              />
+            </picture>
+            <article class="interest">
+              <h1>
+                Interest:
+
+                <i class="fa-solid fa-chess"></i>
+                <i class="fa-solid fa-code"></i>
+                <i class="fa-brands fa-spotify"></i>
+                <i class="fa-solid fa-compass"></i>
+              </h1>
+              <p>
+                I enjoy challenging myself with chess, expressing my creativity
+                through coding, and exploring new destinations. Playing the
+                Ukulele and Guitar helps me unwind with music, and I keep active
+                by playing badminton.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section id="skills" class="skills">
+        <h1>EXPERIENCE</h1>
+        <p>Proficient in HTML, CSS, and JavaScript.</p>
+      </section>
+      <section class="skills-bg">
+        <div class="parent">
+          <div class="child">
+            <p>June 2021 - January 2022</p>
+            <em>(Self-Employed - Freelance)</em>
+            <a
+              href="https://www.fiverr.com/?utm_source=bing&utm_medium=cpc-brand&utm_campaign=B_ROW_
+              Brand_Exact&utm_term=Exact_[fiverr]&utm_content=AdID^^Keyword^fiverr^Placement^^Device^
+              c&caid=285041604&agid=1245746684795539&ad_id=&kw=fiverr&lpcat=br_general&show_join=true
+              &msclkid=d26669f5a6731e2f69090e45d85a08d5"
+              target="_blank"
+              >Fiverr.com</a
+            >
+
+            <p><mark>Web Designer/ Front-end Developer</mark></p>
+
+            <p>
+              Designed and developed responsive websites using HTML, CSS, Figma,
+              and JavaScript
+            </p>
+            <p>
+              Created modern, user-friendly designs and implemented responsive
+              web design principles
+            </p>
+            <p class="parag">
+              <span class="span2">Self-teaching</span> &nbsp;<span class="span2"
+                >Communication</span
+              >
+              &nbsp;<span class="span2"> Problem-solving</span>&nbsp;<span
+                class="span2"
+              >
+                Time management</span
+              >&nbsp;<span class="span2"> HTML5</span>&nbsp;<span class="span2">
+                CSS3</span
+              >&nbsp;<span class="span2"> JavaScript</span>
+            </p>
+            <p></p>
+          </div>
+        </div>
+        <div class="parent">
+          <div class="child">
+            <p>May 2024 - September 2024</p>
+            <h1>SureWell Equities INC.</h1>
+            <p><mark>IT Support / HR Assistant</mark></p>
+
+            <p>
+              Encoding and assembly of personal computers at Surewell Equities
+              Inc., enhancing technical proficiency and operational efficiency,
+              Assisting HR.
+            </p>
+            <p class="parag">
+              <span class="span2">Empathy and Emotional Intelligence</span>
+              &nbsp;<span class="span2">Organizational Skills</span> &nbsp;<span
+                class="span2"
+                >Effective communication</span
+              >
+              &nbsp;<span class="span2"> Time management</span>
+            </p>
+            <p></p>
+          </div>
+        </div>
+        <div class="parent">
+          <div class="child">
+            <p>September 2019 - August 2024</p>
+            <h1>B.S Information Technology</h1>
+
+            <p><mark>National College of Scince and Technology</mark></p>
+
+            <p>
+              Relevant Coursework: Web Development (Html, CSS, and JavaScript),
+              Resposive Web Design, Semantics, SEO
+            </p>
+            <p class="parag">
+              <span class="span2">Critical thinking</span>
+              &nbsp;<span class="span2">Leadership</span> &nbsp;<span
+                class="span2"
+                >Creativity</span
+              >
+              &nbsp;<span class="span2">Self-teaching</span> &nbsp;<span
+                class="span2"
+                >Lifelong learning</span
+              >
+              &nbsp;<span class="span2"> Problem-solving</span>&nbsp;<span
+                class="span2"
+              >
+                Time management</span
+              >
+            </p>
+            <p></p>
+          </div>
+        </div>
+      </section>
+
+      <section class="container3" id="container3">
+        <div class="projects" id="projects">
+          <h1>Projects</h1>
+          <p>This project was developed using HTML, CSS, and JavaScript.</p>
+        </div>
+
+        <div class="wrapper2">
+          <div class="main-box">
+            <div class="box city">
+              <picture class="pics">
+                <img
+                  id="slide1"
+                  loading="lazy"
+                  src="image/city (2).png"
+                  alt="Hero section of the image"
+                />
+
+                <img
+                  id="slide3"
+                  loading="lazy"
+                  src="image/city (3).png"
+                  alt="testimonials"
+                />
+                <img
+                  id="slide4"
+                  loading="lazy"
+                  src="image/city (4).png"
+                  alt="footer section of the image"
+                />
+                <img
+                  id="slide4"
+                  loading="lazy"
+                  src="image/city (1).png"
+                  alt="footer section of the image"
+                />
+              </picture>
+              <div class="buttons">
+                <button class="slider-btn" data-slide="1"></button>
+                <button class="slider-btn" data-slide="2"></button>
+                <button class="slider-btn" data-slide="3"></button>
+                <button class="slider-btn" data-slide="4"></button>
+              </div>
+            </div>
+            <div class="ctn">
+              <h1>Blog Template</h1>
+              <p>A Blog template website of Urban Explorer</p>
+              <p>
+                <span class="span">HTML5</span> &nbsp;<span class="span"
+                  >CSS3</span
+                >
+                &nbsp;<span class="span"> JavaScript</span>
+              </p>
+              <a
+                href="https://nikko-22.github.io/urbanexplorer/index.html"
+                aria-label="View more about city website"
+                >view project</a
+              >
+            </div>
+          </div>
+
+          <div class="main-box">
+            <div class="box city">
+              <picture class="pics1">
+                <img
+                  id="slide1"
+                  loading="lazy"
+                  src="image/ecommerce (4).png"
+                  alt="hero section of the image"
+                />
+
+                <img
+                  id="slide2"
+                  loading="lazy"
+                  src="image/ecommerce (3).png"
+                  alt="main section of the image"
+                />
+                <img
+                  id="slide3"
+                  loading="lazy"
+                  src="image/ecommerce (5).png"
+                  alt="footer section of the image"
+                />
+                <img
+                  id="slide3"
+                  loading="lazy"
+                  src="image/ecommerce (7).png"
+                  alt="footer section of the image"
+                />
+              </picture>
+              <div class="buttons">
+                <button class="slider-btn1" data-slide="1"></button>
+                <button class="slider-btn1" data-slide="2"></button>
+                <button class="slider-btn1" data-slide="3"></button>
+                <button class="slider-btn1" data-slide="4"></button>
+              </div>
+            </div>
+            <div class="ctn">
+              <h1>E-commerce Template</h1>
+              <p>A website template about E-commerce store web app</p>
+              <p>
+                <span class="span">HTML5</span> &nbsp;<span class="span"
+                  >CSS3</span
+                >
+                &nbsp;<span class="span"> JavaScript</span>
+              </p>
+              <a
+                href="https://nikko-22.github.io/e-commerce/index.html"
+                aria-label="View more about E-commerce website"
+                >view project</a
+              >
+            </div>
+          </div>
+          <div class="main-box">
+            <div class="box city">
+              <picture class="pics2">
+                <img
+                  id="slide1"
+                  loading="lazy"
+                  src="image/music (1).png"
+                  alt="hero section of the image"
+                />
+
+                <img
+                  id="slide2"
+                  loading="lazy"
+                  src="image/music (2).png"
+                  alt="main section of the image"
+                />
+                <img
+                  id="slide3"
+                  loading="lazy"
+                  src="image/music (4).png"
+                  alt="footer section of the image"
+                />
+
+                <img
+                  id="slide5"
+                  loading="lazy"
+                  src="image/music (5).png"
+                  alt="footer section of the image"
+                />
+              </picture>
+              <div class="buttons">
+                <button class="slider-btn2" data-slide="1"></button>
+                <button class="slider-btn2" data-slide="2"></button>
+                <button class="slider-btn2" data-slide="3"></button>
+                <button class="slider-btn2" data-slide="4"></button>
+              </div>
+            </div>
+            <div class="ctn">
+              <h1>Music Band Template</h1>
+              <p>A Music Band template for live tour concerts</p>
+              <p>
+                <span class="span">HTML5</span> &nbsp;<span class="span"
+                  >CSS3</span
+                >
+                &nbsp;<span class="span"> JavaScript</span>
+              </p>
+              <a
+                href="https://nikko-22.github.io/music/index.html"
+                aria-label="View About Music Band WebSite"
+                >view project</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container2" id="container2">
+        <article class="main-div">
+          <div class="contact2">
+            <h1 style="font-size: xx-large">CONTACT</h1>
+
+            <!-- modify this form HTML and place wherever you want your form -->
+            <form
+              id="contact-form"
+              action="https://formspree.io/f/mldglwoo"
+              method="POST"
+            >
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter your name"
+                required
+              />
+
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+                required
+              />
+
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Enter your message"
+                required
+              ></textarea>
+
+              <button class="btn" type="submit">Send</button>
+            </form>
+            <p
+              id="response-message"
+              style="display: none; color: #ffffff !important"
+            >
+              Message sent successfully! <i class="fa-solid fa-check"></i>
+            </p>
+          </div>
+          <div class="contact" style="padding: 1rem">
+            <h1>Let's Work Together!</h1>
+            <p class="text3" style="font-size: 1.125rem">
+              I'm looking forward to bringing my skills and dedication to your
+              team. Together, we can achieve great things.
+            </p>
+            <p>
+              <i style="font-size: large" class="fa-solid fa-phone"></i> +63
+              926-3531-748
+            </p>
+            <p>
+              <i style="font-size: large" class="fa-solid fa-location-dot"></i>
+              Boston Heights, Toclong, Kawit Cavite
+            </p>
+            <p>
+              <a href="mailto:nikkobenosa02@gmail.com" style="color: black">
+                <i style="font-size: large" class="fa-solid fa-envelope"></i>
+                nikkobenosa02@gmail.com</a
+              >
+            </p>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <div class="copy">
+        <p>&copy; 2025 Nikko Benosa. All rights reserved.</p>
+        <div class="row">
+          <a
+            class="fabs"
+            aria-label="View more about Nikko Benosa Profile Facebook"
+            href="https://www.facebook.com/nikkobenosa01"
+            target="_blank"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+
+          <a
+            class="fabs"
+            href="https://www.facebook.com/nikkobenosa01"
+            target="_blank"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a
+            class="fabs"
+            aria-label="View more about Nikko Benosa Profile Linkedin"
+            href="https://www.linkedin.com/in/nikko-benosa-46b92a264/"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a
+            href="mailto:nikkobenosa02@gmail.com"
+            aria-label="Message Nikko Benosa in Email"
+            class="fabs"
+            ><i class="fa-solid fa-envelope"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <script src="script2.js"></script>
+    <script src="script3.js"></script>
+  </body>
+</html>
