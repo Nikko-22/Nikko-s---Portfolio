@@ -11,116 +11,141 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
 
-    <title>Nikko Benosa | Web Developer & Instructor</title>
+    <title>
+      Nikko Benosa | Frontend Developer | Fresh Graduate | Entry Level
+    </title>
     <meta
       name="description"
       content="Portfolio of Nikko Benosa, a passionate web development instructor and front-end developer. Explore projects, skills, and experience."
     />
   </head>
   <body>
+    <header>
+      <section>
+        <div class="burger-menu" id="burgerMenu">
+          <i style="font-size: 1.3rem" class="fa-solid fa-bars"></i>
+        </div>
+        <h2 class="fs">
+          <i class="fa-solid fa-circle"></i>&nbsp; Nikko Benosa
+        </h2>
+        <nav class="nav-links" id="navLinks">
+          <ul>
+            <li class="li1">
+              <a href="#home" aria-label="next to home">Home </a>
+            </li>
+
+            <li class="li1">
+              <a href="about.html" aria-label="next to about">About </a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+      <button
+        id="rotateButton"
+        class="toggle-btn"
+        aria-label="toggle button"
+        title="Click to toggle the button"
+        onclick="toggleDarkMode()"
+      >
+        <i id="circle" class="fa-solid fa-circle-half-stroke"></i>
+      </button>
+    </header>
     <main>
-      <section id="container" class="container">
-        <header>
-          <section class="header">
-            <h2 class="fs">Nikko Benosa</h2>
-            <ul class="unl">
-              <div class="burger-menu" id="burgerMenu">
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>
-              <nav class="nav-links" id="navLinks">
-                <a href="#container2"><li class="li1">Contact</li></a>
-                <a href="#container3"><li class="li1">Projects</li></a>
-                <a href="#skills"><li class="li1">Experience</li></a>
-                <a href="#about"><li class="li1">About</li></a>
-                <a href="#container"><li class="li1">Home</li></a>
-              </nav>
-            </ul>
-          </section>
-          <button
-            id="rotateButton"
-            class="toggle-btn"
-            onclick="toggleDarkMode()"
-          >
-            <i id="circle" class="fa-solid fa-circle-half-stroke"></i>
-          </button>
-        </header>
+      <section id="home" class="container">
         <div class="fabs3">
           <a
             class="fabs"
+            aria-label="Go to Facebook"
             href="https://www.facebook.com/nikkobenosa01"
             target="_blank"
             ><i class="fa-brands fa-facebook"></i
           ></a>
 
-          <a class="fabs" href="instagram.com" target="_blank"
+          <a
+            class="fabs"
+            aria-label="Go to instagram"
+            href="https://www.instagram.com/nikkoniiiiii/"
+            target="_blank"
             ><i class="fa-brands fa-instagram"></i
           ></a>
           <a
             class="fabs"
+            aria-label="Go to linkedin"
             href="https://www.linkedin.com/in/nikko-benosa-46b92a264/"
             target="_blank"
             ><i class="fa-brands fa-linkedin"></i
           ></a>
-          <a href="mailto:nikkobenosa02@gmail.com" class="fabs"
+          <a
+            href="mailto:nikkobenosa02@gmail.com"
+            class="fabs"
+            aria-label="Mail to Nikko"
             ><i class="fa-solid fa-envelope"></i
           ></a>
         </div>
         <div class="text">
+          <div class="main-open">
+            <p class="open">
+              <i class="fa-solid fa-circle"></i>&nbsp; Available for work
+            </p>
+
+            <p class="open">
+              <i class="fa-solid fa-circle"></i>&nbsp; Open to various roles
+            </p>
+          </div>
           <p id="named">Hello, I'm Nikko V. Benosa</p>
 
           <p class="green">
             <em> &nbsp; Bachelor of Science in Information Technology</em>
           </p>
           <p class="para1">
-            &nbsp; Passionate about teaching and frontend development,
-            empowering others to build the web of tomorrow!
+            &nbsp; Passionate about Frontend Development | Teacher/Instructor |
+            Tech | Open to any roles.
           </p>
 
           <div class="resume">
             <a
-              href="https://drive.google.com/file/d/1eTuL-zlRlK9thXz_qP4kfWCgDGE0Wmio/view?usp=sharing"
+              href="https://drive.google.com/file/d/15rcnPMyEXMkLidkeT5B8jTXLiONSVQJQ/view?usp=sharing"
+              aria-label="View Resume of Nikko"
               target="_blank"
               >VIEW RESUME</a
             >
           </div>
         </div>
 
-        <div>
-          <picture>
-            <img
-              class="image1"
-              loading="lazy"
-              src="image/profile.jpg"
-              alt="Nikko Benosa"
-            />
-          </picture>
-        </div>
+        <div></div>
       </section>
 
       <section id="about" class="main-about">
         <div class="contact" style="padding: 1rem">
-          <h2>Get to Know Your Web Development Teacher/Instructor</h2>
+          <h2>Get to Know Your Frontend Developer</h2>
 
           <p class="text3" style="line-height: 1.5">
-            Hi, I'm Nikko! My passion for web development drives me to share my
-            knowledge with students. Though I'm new to teaching, my enthusiasm
-            and dedication to fostering a successful learning environment are
-            paramount. I believe in laying strong foundations and cultivating
-            practical skills. I look forward to embarking on this exciting
-            journey.
+            Hi, I'm Nikko! A passionate Front-End Developer with a Bachelor of
+            Science in Information Technology. Proficient in HTML, CSS,
+            SASS/SCSS and JavaScript, I have a strong focus on building
+            responsive and user-friendly web experiences. I am also familiar
+            with React and Tailwind CSS, continuously learning to stay updated
+            with industry advancements. As I am just starting out, I am open to
+            various roles and eager to grow, collaborate with fellow developers,
+            and contribute to innovative projects.
+            <span><a href="about.html">more about me...</a></span>
           </p>
 
           <div class="link">
-            <a id="link3" class="email" href="mailto:nikkobenosa02@gmail.com">
+            <a
+              id="link3"
+              class="email"
+              aria-label="Mail to Nikko"
+              href="mailto:nikkobenosa02@gmail.com"
+            >
               Email Me
             </a>
           </div>
@@ -153,23 +178,50 @@
           </div>
         </div>
       </section>
-      <section id="skills" class="skills">
+
+      <section class="workflow">
+        <h1 class="why">Why Work With Me</h1>
+        <div class="sub-workflow">
+          <div class="flow">
+            <h1>Responsive Design</h1>
+            <p>
+              Ensuring that your website looks and functions perfectly on any
+              device, from desktops to smartphones, providing a seamless user
+              experience across all screen sizes.
+            </p>
+          </div>
+          <div class="flow">
+            <h1>SEO/Semantics/Minify</h1>
+            <p>
+              Applying advanced SEO techniques, semantic HTML, and code
+              minification to boost your website's search engine rankings,
+              improve load times, and enhance overall web performance.
+            </p>
+          </div>
+          <div class="flow">
+            <h1>Stay Up to Trends</h1>
+            <p>
+              Staying up-to-date with the latest design and development trends,
+              incorporating innovative techniques and technologies to keep your
+              website ahead of the curve.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="skills">
         <h1>EXPERIENCE</h1>
-        <p>Proficient in HTML, CSS, and JavaScript.</p>
+        <p>
+          Proficient in HTML, CSS, JavaScript, and AI tools that enhance my
+          workflow.
+        </p>
       </section>
       <section class="skills-bg">
         <div class="parent">
           <div class="child">
-            <p>August 2021 - January 2022</p>
+            <p>June 2021 - January 2022</p>
             <em>(Self-Employed - Freelance)</em>
-            <a
-              href="https://www.fiverr.com/?utm_source=bing&utm_medium=cpc-brand&utm_campaign=B_ROW_
-              Brand_Exact&utm_term=Exact_[fiverr]&utm_content=AdID^^Keyword^fiverr^Placement^^Device^
-              c&caid=285041604&agid=1245746684795539&ad_id=&kw=fiverr&lpcat=br_general&show_join=true
-              &msclkid=d26669f5a6731e2f69090e45d85a08d5"
-              target="_blank"
-              >Fiverr.com</a
-            >
+            <h1>Fiverr</h1>
 
             <p><mark>Web Designer/ Front-end Developer</mark></p>
 
@@ -250,16 +302,146 @@
         </div>
       </section>
 
-      <section class="container3" id="container3">
+      <section class="container3" id="projects">
         <div class="projects" id="projects">
           <h1>Projects</h1>
-          <p>This project was developed using HTML, CSS, and JavaScript.</p>
+          <p>
+            A ready-made webpage that you can tailor to create your own website.
+            It comes with a basic layout and design elements, streamlining the
+            process and allowing you to build a website more quickly and
+            efficiently without starting from scratch.
+          </p>
         </div>
 
         <div class="wrapper2">
           <div class="main-box">
             <div class="box city">
               <picture class="pics">
+                <img
+                  id="slide1"
+                  loading="lazy"
+                  src="image/2025-02-25.png"
+                  alt="Hero section of the image"
+                />
+
+                <img
+                  id="slide4"
+                  loading="lazy"
+                  src="image/2025-02-25 (3).png"
+                  alt="footer section of the image"
+                />
+                <img
+                  id="slide4"
+                  loading="lazy"
+                  src="image/2025-02-25 (4).png"
+                  alt="footer section of the image"
+                />
+              </picture>
+              <div class="buttons">
+                <button
+                  aria-label="Show more"
+                  title="Click to show more"
+                  class="slider-btn"
+                  data-slide="1"
+                ></button>
+
+                <button
+                  aria-label="Show more"
+                  title="Click to show more"
+                  class="slider-btn"
+                  data-slide="3"
+                ></button>
+                <button
+                  aria-label="Show more"
+                  title="Click to show more"
+                  class="slider-btn"
+                  data-slide="4"
+                ></button>
+              </div>
+            </div>
+            <div class="ctn">
+              <h1>Eyewear E-commerce Template</h1>
+              <p>Deployed a ready-made responsive Template</p>
+              <p>
+                <span class="span">HTML5</span> &nbsp;<span class="span"
+                  >CSS3</span
+                >
+                &nbsp;<span class="span"> JavaScript</span>
+              </p>
+              <a
+                href="https://nikko-22.github.io/Ecommerce-2/"
+                target="_blank"
+                aria-label="View more about ecommerce website"
+                >view project</a
+              >
+            </div>
+          </div>
+
+          <div class="main-box">
+            <div class="box city">
+              <picture class="pics1">
+                <img
+                  id="slide1"
+                  loading="lazy"
+                  src="image/ecommerce (4).png"
+                  alt="hero section of the image"
+                />
+
+                <img
+                  id="slide3"
+                  loading="lazy"
+                  src="image/ecommerce (5).png"
+                  alt="footer section of the image"
+                />
+                <img
+                  id="slide3"
+                  loading="lazy"
+                  src="image/ecommerce (7).png"
+                  alt="footer section of the image"
+                />
+              </picture>
+              <div class="buttons">
+                <button
+                  aria-label="Show more"
+                  title="Click to show more"
+                  class="slider-btn1"
+                  data-slide="1"
+                ></button>
+
+                <button
+                  aria-label="Show more"
+                  title="Click to show more"
+                  class="slider-btn1"
+                  data-slide="3"
+                ></button>
+                <button
+                  aria-label="Show more"
+                  title="Click to show more"
+                  class="slider-btn1"
+                  data-slide="4"
+                ></button>
+              </div>
+            </div>
+            <div class="ctn">
+              <h1>E-commerce Template</h1>
+              <p>Developed a ready-made responsive e-commerce web template.</p>
+              <p>
+                <span class="span">HTML5</span> &nbsp;<span class="span"
+                  >CSS3</span
+                >
+                &nbsp;<span class="span"> JavaScript</span>
+              </p>
+              <a
+                href="https://nikko-22.github.io/e-commerce/index.html"
+                target="_blank"
+                aria-label="View more about E-commerce website"
+                >view project</a
+              >
+            </div>
+          </div>
+          <div class="main-box">
+            <div class="box city">
+              <picture class="pics3">
                 <img
                   id="slide1"
                   loading="lazy"
@@ -287,10 +469,24 @@
                 />
               </picture>
               <div class="buttons">
-                <button class="slider-btn" data-slide="1"></button>
-                <button class="slider-btn" data-slide="2"></button>
-                <button class="slider-btn" data-slide="3"></button>
-                <button class="slider-btn" data-slide="4"></button>
+                <button
+                  aria-label="Show more"
+                  title="Click to show more"
+                  class="slider-btn3"
+                  data-slide="1"
+                ></button>
+                <button
+                  aria-label="Show more"
+                  title="Click to show more"
+                  class="slider-btn3"
+                  data-slide="2"
+                ></button>
+                <button
+                  aria-label="Show more"
+                  title="Click to show more"
+                  class="slider-btn3"
+                  data-slide="3"
+                ></button>
               </div>
             </div>
             <div class="ctn">
@@ -303,7 +499,8 @@
                 &nbsp;<span class="span"> JavaScript</span>
               </p>
               <a
-                href="https://nikko-22.github.io/urbanexplorer/index.html" target="_blank"
+                href="https://nikko-22.github.io/urbanexplorer/index.html"
+                target="_blank"
                 aria-label="View more about city website"
                 >view project</a
               >
@@ -312,59 +509,7 @@
 
           <div class="main-box">
             <div class="box city">
-              <picture class="pics1">
-                <img
-                  id="slide1"
-                  loading="lazy"
-                  src="image/ecommerce (4).png"
-                  alt="hero section of the image"
-                />
-
-                <img
-                  id="slide2"
-                  loading="lazy"
-                  src="image/ecommerce (3).png"
-                  alt="main section of the image"
-                />
-                <img
-                  id="slide3"
-                  loading="lazy"
-                  src="image/ecommerce (5).png"
-                  alt="footer section of the image"
-                />
-                <img
-                  id="slide3"
-                  loading="lazy"
-                  src="image/ecommerce (7).png"
-                  alt="footer section of the image"
-                />
-              </picture>
-              <div class="buttons">
-                <button class="slider-btn1" data-slide="1"></button>
-                <button class="slider-btn1" data-slide="2"></button>
-                <button class="slider-btn1" data-slide="3"></button>
-                <button class="slider-btn1" data-slide="4"></button>
-              </div>
-            </div>
-            <div class="ctn">
-              <h1>E-commerce Template</h1>
-              <p>A website template about E-commerce store web app</p>
-              <p>
-                <span class="span">HTML5</span> &nbsp;<span class="span"
-                  >CSS3</span
-                >
-                &nbsp;<span class="span"> JavaScript</span>
-              </p>
-              <a
-                href="https://nikko-22.github.io/e-commerce/index.html" target="_blank"
-                aria-label="View more about E-commerce website"
-                >view project</a
-              >
-            </div>
-          </div>
-          <div class="main-box">
-            <div class="box city">
-              <picture class="pics2">
+              <picture class="pics4">
                 <img
                   id="slide1"
                   loading="lazy"
@@ -393,10 +538,24 @@
                 />
               </picture>
               <div class="buttons">
-                <button class="slider-btn2" data-slide="1"></button>
-                <button class="slider-btn2" data-slide="2"></button>
-                <button class="slider-btn2" data-slide="3"></button>
-                <button class="slider-btn2" data-slide="4"></button>
+                <button
+                  aria-label="Show more"
+                  title="Click to show more"
+                  class="slider-btn4"
+                  data-slide="1"
+                ></button>
+                <button
+                  aria-label="Show more"
+                  title="Click to show more"
+                  class="slider-btn4"
+                  data-slide="2"
+                ></button>
+                <button
+                  aria-label="Show more"
+                  title="Click to show more"
+                  class="slider-btn4"
+                  data-slide="3"
+                ></button>
               </div>
             </div>
             <div class="ctn">
@@ -409,7 +568,8 @@
                 &nbsp;<span class="span"> JavaScript</span>
               </p>
               <a
-                href="https://nikko-22.github.io/music/index.html" target="_blank"
+                href="https://nikko-22.github.io/music/index.html"
+                target="_blank"
                 aria-label="View About Music Band WebSite"
                 >view project</a
               >
@@ -418,7 +578,7 @@
         </div>
       </section>
 
-      <section class="container2" id="container2">
+      <section class="container2" id="contact">
         <article class="main-div">
           <div class="contact2">
             <h1 style="font-size: xx-large">CONTACT</h1>
@@ -452,7 +612,14 @@
                 required
               ></textarea>
 
-              <button class="btn" type="submit">Send</button>
+              <button
+                class="btn"
+                type="submit"
+                aria-label="Submit Form"
+                title="Click to submit the form"
+              >
+                Send
+              </button>
             </form>
             <p
               id="response-message"
@@ -475,7 +642,7 @@
               <i style="font-size: large" class="fa-solid fa-location-dot"></i>
               Boston Heights, Toclong, Kawit Cavite
             </p>
-            <p>
+            <p class="under">
               <a href="mailto:nikkobenosa02@gmail.com" style="color: black">
                 <i style="font-size: large" class="fa-solid fa-envelope"></i>
                 nikkobenosa02@gmail.com</a
@@ -483,6 +650,137 @@
             </p>
           </div>
         </article>
+      </section>
+
+      <section id="qa" class="main-qa-section">
+        <h1 class="qa-h">Q&A Section</h1>
+        <div class="qa-section">
+          <div class="qa">
+            <div class="question-container" onclick="toggleAnswer(this)">
+              <p class="question">
+                Q: What motivates you to pursue a career in web development?
+              </p>
+              <button
+                class="button"
+                aria-label="Show more"
+                title="Click to show more"
+              >
+                +
+              </button>
+            </div>
+            <p class="answer">
+              A: I am passionate about creating user-friendly and visually
+              appealing websites that provide a great user experience. The
+              ever-evolving nature of web development excites me, and I enjoy
+              the challenge of solving complex problems and continuously
+              learning new technologies.
+            </p>
+          </div>
+          <div class="qa">
+            <div class="question-container" onclick="toggleAnswer(this)">
+              <p class="question">
+                Q: How do you approach responsive design and ensure a great user
+                experience across different devices?
+              </p>
+              <button
+                class="button"
+                aria-label="Show more"
+                title="Click to show more"
+              >
+                +
+              </button>
+            </div>
+            <p class="answer">
+              A: I prioritize responsive design by using flexible grid systems,
+              media queries, and responsive images. My goal is to provide a
+              seamless user experience across all devices, from desktops to
+              smartphones. I continuously test and optimize my designs to ensure
+              they adapt perfectly to different screen sizes.
+            </p>
+          </div>
+          <div class="qa">
+            <div class="question-container" onclick="toggleAnswer(this)">
+              <p class="question">
+                Q: What is your approach to debugging and troubleshooting code?
+              </p>
+              <button
+                class="button"
+                aria-label="Show more"
+                title="Click to show more"
+              >
+                +
+              </button>
+            </div>
+            <p class="answer">
+              A: My approach to debugging involves breaking down the problem
+              into smaller, manageable parts and systematically testing each
+              part to identify the issue. I use browser developer tools, write
+              test cases, and log errors to track down and resolve bugs
+              efficiently.
+            </p>
+          </div>
+          <div class="qa">
+            <div class="question-container" onclick="toggleAnswer(this)">
+              <p class="question">
+                Q: What tools and technologies do you use to enhance your
+                workflow and productivity?
+              </p>
+              <button
+                class="button"
+                aria-label="Show more"
+                title="Click to show more"
+              >
+                +
+              </button>
+            </div>
+            <p class="answer">
+              A: I leverage various tools and technologies to streamline my
+              workflow, including Visual Studio Code for coding and various AI
+              tools to automate repetitive tasks. While I haven't yet had the
+              opportunity to work with Git, I am eager to learn and adopt
+              version control systems to enhance collaboration and code quality.
+              These tools enable me to work more efficiently and focus on
+              delivering high-quality web solutions.
+            </p>
+          </div>
+          <div class="qa">
+            <div class="question-container" onclick="toggleAnswer(this)">
+              <p class="question">
+                Q: How do you handle feedback and revisions from clients or team
+                members?
+              </p>
+              <button class="button">+</button>
+            </div>
+            <p class="answer">
+              A: I view feedback as an opportunity for growth and improvement. I
+              actively listen to the feedback, ask clarifying questions if
+              needed, and make the necessary revisions promptly. I maintain open
+              communication with clients and team members to ensure their
+              expectations are met and the final product is of high quality.
+            </p>
+          </div>
+          <div class="qa">
+            <div class="question-container" onclick="toggleAnswer(this)">
+              <p class="question">
+                Q: How do you stay updated with the latest trends and
+                technologies in web development?
+              </p>
+              <button
+                class="button"
+                aria-label="Show more"
+                title="Click to show more"
+              >
+                +
+              </button>
+            </div>
+            <p class="answer">
+              A: I stay updated by following reputable web development blogs,
+              participating in online communities like Stack Overflow and
+              YouTube. I also attend web development conferences and webinars
+              whenever possible.
+            </p>
+          </div>
+        </div>
       </section>
     </main>
 
@@ -500,7 +798,8 @@
 
           <a
             class="fabs"
-            href="https://www.facebook.com/nikkobenosa01"
+            href="https://www.instagram.com/nikkoniiiiii/"
+            aria-label="View more about Nikko Benosa "
             target="_blank"
             ><i class="fa-brands fa-instagram"></i
           ></a>
@@ -522,8 +821,9 @@
     </footer>
 
     <script src="script.js"></script>
-
     <script src="script2.js"></script>
     <script src="script3.js"></script>
+    <script src="script4.js"></script>
+    <script src="script5.js"></script>
   </body>
 </html>
