@@ -37,6 +37,10 @@ html {
   color: #ffffff !important; /* Ensure text is white */
 }
 
+.dark-mode #arrow {
+  color: var(--text-color);
+}
+
 .head-section {
   min-height: 90vh;
   display: flex;
